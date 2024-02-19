@@ -25,3 +25,6 @@ Currently, two official plugins are available:
 6. The setTasks function is called to update the state with the new task. It uses the functional form of setState to ensure that the update is based on the previous state. setTasks((prevTasks) => [...prevTasks, task]);
 7. So, when the handleSubmit function is triggered, it effectively adds a new task to the tasks list with the provided title, desc, and a status set to false. Then, it resets the title and desc state variables to an empty string, presumably to clear the input fields for further entries.
 8. Handleupdate event is  to make copy of prev array and that holds the index of task you wan tto edit ,handleUpdate function is responsible for updating that specific task in the array. return new updated array.
+
+
+![Alt text](<Screenshot 2024-02-19 at 22.34.05.png>)
